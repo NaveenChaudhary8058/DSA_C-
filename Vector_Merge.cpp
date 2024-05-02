@@ -24,9 +24,9 @@ int main(){
          cin>>value2[i];
          merge.push_back(value2[i]);
     }
-        cout<<"Merged Value : "<<" ";
+        cout<<"Merged Value : ";
     for(int i = 0 ; i < merge.size() ; i++){
-        cout<<merge[i];
+        cout<<merge[i]<<" ,";
     }
 
 
