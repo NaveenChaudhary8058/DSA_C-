@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 using namespace std;
 int findUniqueVal(vector<int>values){
     int num = 0;
@@ -8,6 +8,7 @@ int findUniqueVal(vector<int>values){
     }
     return num ;
 }
+
 int main(){
     vector <int> values = {1,1,2,5,5};
     int uniqueVal = findUniqueVal(values);
